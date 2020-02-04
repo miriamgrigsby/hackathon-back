@@ -10,13 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_04_184349) do
+ActiveRecord::Schema.define(version: 2020_02_04_215721) do
 
   create_table "cities", force: :cascade do |t|
     t.string "name"
     t.string "state"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "Latitude"
+    t.float "Longitude"
   end
 
   create_table "city_weathers", force: :cascade do |t|
@@ -25,8 +27,6 @@ ActiveRecord::Schema.define(version: 2020_02_04_184349) do
     t.float "windgust"
     t.float "windspeed"
     t.string "daily_summary"
-    t.string "alert"
-    t.text "alert_description"
     t.integer "city_id", null: false
     t.integer "weather_id", null: false
     t.datetime "created_at", precision: 6, null: false
