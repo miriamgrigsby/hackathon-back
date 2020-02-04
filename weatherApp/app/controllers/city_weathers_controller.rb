@@ -1,0 +1,2 @@
+class CityWeathersController < ApplicationController
+end
