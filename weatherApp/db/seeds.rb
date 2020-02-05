@@ -16,7 +16,7 @@ san_francisco = City.create(name: "San Francisco", state: "CA",Latitude: 37.7749
 phoenix = City.create(name: "Phoenix", state: "AZ",Latitude: 33.4484, Longitude: -112.074 )
 houston = City.create(name: "Houston", state: "TX",Latitude: 29.7604, Longitude: -95.3698)
 philadelphia = City.create(name: "Philadelphia", state: "PA",Latitude: 39.9526, Longitude: -75.1652)
-jacksonville = City.create(name: "Jacksonville", state: "FL",Latitude: 30.3322, Longitude: -81.6557)
+# jacksonville = City.create(name: "Jacksonville", state: "FL",Latitude: 30.3322, Longitude: -81.6557)
 miami = City.create(name: "Miami", state: "FL",Latitude: 25.7617, Longitude: -80.1918)
 seattle = City.create(name: "Seattle", state: "WA",Latitude: 47.6062, Longitude: -122.3321)
 
