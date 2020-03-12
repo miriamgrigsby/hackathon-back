@@ -2,9 +2,6 @@ A 1-day hackathon collaboration project where a group of students built a rails 
 
 ![Screenshot](home.png)
 
-## Video Walk Through
-
-* [Walk Through Video]()
 
 ## Motivation
 
